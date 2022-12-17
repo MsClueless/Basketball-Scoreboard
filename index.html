@@ -10,9 +10,21 @@
     <div class="container">
         <div>
             <h3>HOME</h3>
+            <p id="homeScore" class="scoreboard">0</p>
+            <div class="addScore">
+                <button id="homeScore-1" onclick="addHomeOne()">+1</button>
+                <button id="homeScore-2" onclick="addHomeTwo()">+2</button>
+                <button id="homeScore-3" onclick="addHomeThree()">+3</button>
+            </div>
         </div>
         <div>
             <h3>GUEST</h3>
+            <p id="guestScore" class="scoreboard">0</p>
+            <div class="addScore">
+                <button id="guestScore-1" onclick="addGuestOne()">+1</button>
+                <button id="guestScore-2" onclick="addGuestTwo()">+2</button>
+                <button id="guestScore-3" onclick="addGuestThree()">+3</button>
+            </div>
         </div>
     </div>
     <script src="index.js"></script>
